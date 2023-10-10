@@ -40,8 +40,8 @@ service / on new http:Listener(9090) {
 
         }
 
-        return FrequentFlyerMiles;
-        // return jwtAssertion;
+        // return FrequentFlyerMiles;
+        return jwtAssertion;
     }
 }
 
